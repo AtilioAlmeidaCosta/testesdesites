@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</title>
+  </head>
+  <body>
+	<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+nav {
+  background-color: #7fbf7f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container p {
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.container button {
+  background-color: #7fbf7f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #4a9e4a;
+}
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Estilos para as seções Sobre, Cursos e Contato */
+section {
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+}
+
+section h2 {
+  color: #4d4d4d;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+section p {
+  color: #666666;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  color: #4d4d4d;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+section li:before {
+  content: "\2022";
+  color: #7fbf7f;
+  font-size: 1.5rem;
+  left: 0;
+  position: absolute;
+  top: 0.2rem;
+}
+
+
+	</style>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+      <h1>IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</h1>
+      <section id="sobre">
+        <div class="container">
+          <h2>Sobre o IFSP</h2>
+          <p>O Instituto Federal de Educação, Ciência e Tecnologia de São Paulo é uma instituição federal de ensino superior, técnico e tecnológico, que oferece cursos de graduação, pós-graduação, técnicos e de extensão. O IFSP tem como missão oferecer educação pública, gratuita e de qualidade, formando profissionais capacitados para atender às demandas do mercado de trabalho.</p>
+          <p>O IFSP tem sua sede em São Paulo e conta com diversos campi espalhados pelo estado, oferecendo uma ampla variedade de cursos nas áreas de tecnologia, ciências exatas, ciências humanas e ciências biológicas.</p>
+        </div>
+      </section>
+      <section id="cursos">
+        <div class="container">
+          <h2>Cursos</h2>
+          <p>O IFSP oferece uma ampla variedade de cursos nas áreas de tecnologia, ciências exatas, ciências humanas e ciências biológicas. Alguns dos cursos oferecidos são:</p>
+          <ul>
+            <li>Técnico em Informática</li>
+            <li>Engenharia Civil</li>
+            <li>Ciências Biológicas</li>
+            <li>Bacharelado em Sistemas de Informação</li>
+            <li>Licenciatura em Física</li>
+            <li>Tecnologia em Jogos Digitais</li>
+          </ul>
+        </div>
+      </section>
+      <section id="contato">
+        <div class="container">
+          <h2>Contato</h2>
+          <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <p>&copy; IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
